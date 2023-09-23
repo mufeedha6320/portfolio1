@@ -369,6 +369,7 @@ nav .fas{
     }
     .about-col-1{
         margin-bottom: 30px;
+        display:none; /* invisible */
     }
     .about-col-2{
         text-align: start;
