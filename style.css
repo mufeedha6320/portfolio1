@@ -186,7 +186,8 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-}.work img{
+}
+.work img{
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -379,7 +380,10 @@ nav .fas{
         margin-right: 20px;
     }
     .services-list div{
-    background-color: #7a2b53; 
+        background-color: #7a2b53; 
+    }
+    .layer{ 
+        height: 100%; 
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
