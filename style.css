@@ -70,7 +70,7 @@ nav ul li a:hover::after{
 /*------------about---------*/
 #about{
     padding:80px;
-    color:#42135b;
+    color:#1c1b1b;
 }
 .row{
     display: flex;
@@ -78,15 +78,17 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 35%;  
 }
 .about-col-1 img{
     width:100%;
-    border-radius: 15px;
+    height: 100%;
+    border-radius: 15px; 
 }
 .about-col-2{
     flex-basis: 60%; 
-    line-height: 1.8; 
+    line-height: 1.85; 
+    padding: 20px;
     /* we got 5% free space between the 2 columns*/
 }
 .sub-title{
@@ -97,6 +99,7 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin : 20px 0 40px;
+    padding-left: 10px;
 }
 .tab-links{
     margin-right: 50px;
@@ -123,8 +126,8 @@ nav ul li a:hover::after{
     list-style : none;
     margin: 10px 0;
 }
-.tab-contents ul li span {
-    color: #7a2b53;
+.tab-contents ul li span { 
+    color: #2c8225  ;   
     font-size : 14px;
     font-weight: 550;
 }
@@ -318,6 +321,7 @@ nav .fas{
     display: none; /* icons are hidden */
 }
 /* small screen */
+ 
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phone_bg_image.jpg); 
@@ -361,6 +365,10 @@ nav .fas{
     .sub-title{
         font-size: 40px;
     }
+    #about {
+        background-image: none;   
+    }
+    
     
     .about-col-1, .about-col-2{
         flex-basis: 100%; 
@@ -402,4 +410,5 @@ nav .fas{
     color: #7a2b53;
     margin-top: -40px;
     display: block;
+}
 }
